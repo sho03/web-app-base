@@ -1,6 +1,6 @@
 package sho03.web.app.domain
 
-class Task private constructor(val id: TaskId, val name: TaskName) {
+class Task constructor(val id: TaskId, val name: TaskName) {
 
     companion object {
         fun create(name: TaskName): Task {

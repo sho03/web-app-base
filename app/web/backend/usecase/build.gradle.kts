@@ -20,6 +20,7 @@ repositories {
 
 dependencies {
     implementation(project(":domain"))
+    implementation(project(":infrastructure"))
 
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-jdbc:3.2.4")
