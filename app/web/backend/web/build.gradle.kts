@@ -26,6 +26,10 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+    // flyway migration
+    implementation("org.flywaydb:flyway-core:9.0.0")
+    implementation("org.flywaydb:flyway-mysql:9.0.0")
 }
 
 tasks.withType<KotlinCompile> {

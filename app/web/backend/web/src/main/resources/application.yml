@@ -1,6 +1,14 @@
 spring:
   application:
     name: web-backend
+  datasource:
+    url: jdbc:mysql://localhost:3306/exampledb
+    username: user
+    password: password
+  flyway:
+    baseline-version: 0
+    enabled: true
+    baseline-on-migrate: true
 
 server:
   port: 8083
